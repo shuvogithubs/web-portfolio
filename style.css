@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 150px;
 }
 .nav-title{
     color: #181818;
@@ -40,8 +41,43 @@ nav >ul{
 nav li{
     list-style: none;
     margin-right:51px;
+    
 }
 li a{
     text-decoration: none;
     color: var(--dark-02, #474747);
+}
+.header{
+    width: 1600px;
+height: 837px;
+flex-shrink: 0;
+background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-download{
+    color: var(--white-color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 200px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+
+
+}
+.my-img{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat;
 }
