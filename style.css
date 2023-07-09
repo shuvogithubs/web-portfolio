@@ -19,7 +19,7 @@ line-height: normal;
 color:#FD6E0A;
 }
 .button-color{
-    background-color:#FD6E0A;
+    
     width: 100px;
 height: 40px;
 flex-shrink: 0;
@@ -30,6 +30,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+color: #FD6E0A;
 
 
 }
@@ -153,16 +154,28 @@ main{
  
 display: flex;
 justify-content: space-around;
-margin-bottom: ;: 50px;
-width: 1140px;
-height: 550px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #FFF8F3;
 }
 .about-info{
     text-align: center;
 }
 .info-description{
     font: bold;
+}
+.what{
+    color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+}
+.what-para{
+    display: flex;
+
+flex-direction: column;
+flex-shrink: 0;
+color: var(--dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
